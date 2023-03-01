@@ -111,3 +111,103 @@ p:nth-of-type(even) {
     /* 11 */
     grid-auto-rows: 100px;
 }
+
+/* Super Secret Bonus Question */
+/* #p-one {
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;    
+} */
+
+/* Bonus */
+
+/* 1 */
+#one {
+    flex-direction: column-reverse;
+}
+
+/* 2 */
+/* #two {
+    flex-direction: row-reverse;
+} */
+
+/* OR */
+/* #brown {
+    order: 1;
+}
+
+#orange {
+    order: 2;
+}
+
+#purple {
+    order: 3;
+} */
+
+/* OR */
+#brown {
+    order: -1;
+}
+
+/* 3 */
+#purple {
+    align-self: flex-end;
+}
+
+#brown {
+    align-self: flex-start;
+}
+
+/* 4 */
+#three {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+}
+
+#p-one {
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* OR */
+    /* grid-column: start/end; */
+    grid-column: 1/3;
+}
+
+#p-two {
+    /* grid-column-start: 3;
+    grid-column-end: 5; */
+    /* OR */
+    grid-column: 3/5;
+}
+
+#p-three {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#p-four {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+#p-five {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+
+#p-six {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#p-eight {
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
